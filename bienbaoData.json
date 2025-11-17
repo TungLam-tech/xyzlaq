@@ -718,5 +718,245 @@
       }
     ],
     "explanation": "./image/334gt.png"
+  },
+  {
+    "numberOrder": 31,
+    "question": "",
+    "urlImage": "./image/335.png",
+    "answers": [
+      {
+        "answer": "biển 1",
+        "correct": false
+      },
+      {
+        "answer": "biển 3",
+        "correct": false
+      },
+      {
+        "answer": "biển 3",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/335gt.png"
+  },
+  {
+    "numberOrder": 32,
+    "question": "",
+    "urlImage": "./image/336.png",
+    "answers": [
+      {
+        "answer": "biển 1",
+        "correct": false
+      },
+      {
+        "answer": "biển 2",
+        "correct": false
+      },
+      {
+        "answer": "biển 3",
+        "correct": false
+      },
+      {
+        "answer": "biển 1 và 2",
+        "correct": true
+      }
+    ],
+    "explanation": "./image/336gt.png"
+  },
+  {
+    "numberOrder": 33,
+    "question": "",
+    "urlImage": "./image/337.png",
+    "answers": [
+      {
+        "answer": "biển 1",
+        "correct": false
+      },
+      {
+        "answer": "biển 2",
+        "correct": false
+      },
+      {
+        "answer": "biển 3",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/337gt.png"
+  },
+  {
+    "numberOrder": 34,
+    "question": "",
+    "urlImage": "./image/338.png",
+    "answers": [
+      {
+        "answer": "Đường cấm súc vật vận tải hàng hóa",
+        "correct": false
+      },
+      {
+        "answer": "Đường cấm súc vật vận tải hành khách",
+        "correct": false
+      },
+      {
+        "answer": "Đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/338gt.png"
+  },
+  {
+    "numberOrder": 35,
+    "question": "",
+    "urlImage": "./image/339.png",
+    "answers": [
+      {
+        "answer": "Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h",
+        "correct": true
+      },
+      {
+        "answer": "Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/339gt.png"
+  },
+  {
+    "numberOrder": 36,
+    "question": "",
+    "urlImage": "./image/340.png",
+    "answers": [
+      {
+        "answer": "Được phép",
+        "correct": false
+      },
+      {
+        "answer": "Không được phép",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/340gt.png"
+  },
+  {
+    "numberOrder": 37,
+    "question": "",
+    "urlImage": "./image/341.png",
+    "answers": [
+      {
+        "answer": "biển 1",
+        "correct": true
+      },
+      {
+        "answer": "biển 2",
+        "correct": false
+      },
+      {
+        "answer": "biển 3",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/341gt.png"
+  },
+  {
+    "numberOrder": 38,
+    "question": "",
+    "urlImage": "./image/342.png",
+    "answers": [
+      {
+        "answer": "Cho phép xe ô tô có tải trọng trục lớn hơn 7 tấn đi qua.",
+        "correct": false
+      },
+      {
+        "answer": "Cho phép xe ô tô có tải trọng trên trục xe từ 7 tấn trở xuống đi qua.",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/342gt.png"
+  },
+  {
+    "numberOrder": 39,
+    "question": "",
+    "urlImage": "./image/343.png",
+    "answers": [
+      {
+        "answer": "Cấm các loại xe có tải trọng toàn bộ trên 10 tấn đi qua.",
+        "correct": true
+      },
+      {
+        "answer": "Hạn chế khối lượng hàng hóa chở trên xe.",
+        "correct": false
+      },
+      {
+        "answer": "Hạn chế tải trọng trên trục xe.",
+        "correct": false
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/343gt.png"
+  },
+  {
+    "numberOrder": 40,
+    "question": "",
+    "urlImage": "./image/344.png",
+    "answers": [
+      {
+        "answer": "biển 1",
+        "correct": false
+      },
+      {
+        "answer": "biển 2",
+        "correct": false
+      },
+      {
+        "answer": "cả 2 biển",
+        "correct": true
+      },
+      {
+        "answer": "",
+        "correct": false
+      }
+    ],
+    "explanation": "./image/344gt.png"
   }
 ]

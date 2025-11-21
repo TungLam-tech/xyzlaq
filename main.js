@@ -213,8 +213,17 @@ function init(begin) {
   blockQuestion.appendChild(imgElement);
 
   blockChoice.forEach((choice, index) => {
-    choice.innerHTML = `<div class="letter">${letters[index]}</div>
-                        <div class="text-choice">${currentQuestion.answers[index].answer}</div>`;
+    const answerText = currentQuestion.answers[index]?.answer?.trim();
+
+    if (answerText) {
+      choice.style.display = "flex"; // hoặc "block" tùy theo CSS
+      choice.innerHTML = `
+        <div class="letter">${letters[index]}</div>
+        <div class="text-choice">${answerText}</div>
+      `;
+    } else {
+      choice.style.display = "none"; // ẩn nếu không có nội dung
+    }
   });
 
   showResultBtn.classList.add("hide");
@@ -327,6 +336,7 @@ function showResult() {
   explanationLink.classList.add("hide");
   blockChoice.forEach((choice) => {
     choice.classList.add("hide");
+    choice.style.display = "none"; // đảm bảo ẩn hoàn toàn
   });
   alertCorrectOrIncorrect.classList.add("hide");
   showResultBtn.classList.add("hide");
@@ -367,7 +377,7 @@ const conclusionBlock = $(".conclusion");
 function showScore() {
   percentScore = Math.round((score / currentQuestionSet.length) * 100);
   scoreBlock.innerText = `${percentScore}%`;
-  scoreBlock.style.color = percentScore >= 80 ? "#3967e6ff" : "red";
+  scoreBlock.style.color = percentScore == 100 ? "#3967e6ff" : "red";
   paraScore.innerText = `Bạn đã trả lời đúng ${score} trên ${currentQuestionSet.length} câu hỏi`;
 
   const selectedIndex = JSON.parse(localStorage.getItem("selected index"));

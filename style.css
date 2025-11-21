@@ -27,7 +27,8 @@
 }
 body {
   background-color: rgba(15, 15, 43);
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "Poppins", "sen", sans-serif;
 }
 section {
   position: relative;
@@ -53,7 +54,6 @@ h1 {
   margin-top: 16px;
   padding: 5px 10px;
   border-radius: 40px;
-  display: flex;
 }
 .letter {
   margin-right: 30px;

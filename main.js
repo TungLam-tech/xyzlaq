@@ -161,7 +161,7 @@ function start(fullData) {
     // xử lý màu sắc đề đã làm
     if (result2.hasOwnProperty(index)) {
       if (result2[index] === 100) {
-        question.style.color = "aqua";
+        question.style.color = "#018ca5ff";
         question.innerHTML = `✓ Đề số ${index + 1}`;
       } else {
         question.style.color = "#ff6b3eff";
@@ -285,7 +285,7 @@ blockChoice.forEach((choice, index) => {
       soundCorrect.play();
       choice.classList.add("green-correct");
       alertCorrectOrIncorrect.innerText = " Đúng!";
-      alertCorrectOrIncorrect.style.color = "#2fff00ff";
+      alertCorrectOrIncorrect.style.color = "#02fa23ff";
       alertCorrectOrIncorrect.classList.remove("hide");
       nextBtn.classList.remove("hide");
       score++;

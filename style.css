@@ -9,10 +9,21 @@
   img {
     display: block;
     margin: 5px auto;
-    width: 40%;
+    width: 80%;
     height: auto;
     margin-bottom: 50px;
     object-fit: contain;
+  }
+  section {
+    position: relative;
+    width: 40vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto 0 auto;
+    padding: 20px 35px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 150px) and (max-width: 767.5px) {
@@ -24,23 +35,34 @@
     margin-bottom: 50px;
     object-fit: contain;
   }
+  section {
+    position: relative;
+    width: 80vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto 0 auto;
+    padding: 20px 35px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 20px;
+  }
 }
 body {
-  background-color: rgba(15, 15, 43);
-  color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(162, 237, 240);
+  color: rgba(37, 82, 50);
   font-family: "Poppins", "sen", sans-serif;
 }
-section {
+/* section {
   position: relative;
   width: 80vw;
   height: auto;
-  background-color: rgb(37, 72, 78);
+  background-color: rgb(255, 255, 255);
   margin: 50px auto 0 auto;
   padding: 20px 35px;
   font-size: 1.5rem;
   line-height: 2rem;
   border-radius: 20px;
-}
+} */
 h1 {
   margin-top: 20px;
   margin-left: auto;
@@ -50,10 +72,11 @@ h1 {
   text-align: center;
 }
 .choice {
-  background-color: rgba(15, 15, 43);
+  background-color: rgb(115, 216, 241); /*màu của lựa chọn*/
   margin-top: 16px;
   padding: 5px 10px;
   border-radius: 40px;
+  color: rgba(0, 0, 0, 0.801);
 }
 .letter {
   margin-right: 30px;
@@ -61,7 +84,7 @@ h1 {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgb(131, 95, 28);
+  background-color: rgb(245, 252, 151);
   text-align: center;
   vertical-align: middle;
 }
@@ -82,8 +105,8 @@ button {
 }
 .block-result {
   background-color: rgba(201, 201, 221, 1);
-  width: 60vw;
-  height: 250px;
+  width: 60%;
+  height: 60%px;
   border-radius: 20px;
   text-align: center;
   line-height: 3rem;
@@ -151,7 +174,7 @@ button {
   font-size: 1rem;
   font-style: italic;
   text-align: center;
-  color: aqua;
+  color: rgb(38, 0, 255);
 }
 
 .text-choice {
@@ -175,7 +198,7 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   padding: 4px 0;
-  color: white;
+  color: rgb(7, 0, 0);
   cursor: pointer;
   border: solid 1px;
   text-align: center;
@@ -188,10 +211,11 @@ button {
 .thong-bao-100-de-pass-bo-de {
   font-size: 0.8rem;
   text-align: center;
-  color: aqua;
+  color: rgb(4, 6, 82);
 }
 .block-question {
   font-size: 1.2rem;
+  color: black;
 }
 /* chuyển mượt giữa các câu hỏi */
 .block-question,
@@ -240,7 +264,7 @@ button {
 }
 
 .explanation-link {
-  color: white;
+  color: rgb(3, 0, 0);
   text-decoration: underline;
   cursor: pointer;
   margin-top: 10px;
@@ -266,7 +290,7 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   padding: 0px 4px;
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   border: solid 1px;
   text-align: center;

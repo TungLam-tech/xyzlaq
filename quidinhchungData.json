@@ -805,7 +805,7 @@
         "correct": true
       },
       {
-        "answer": "",
+        "answer": "Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua",
         "correct": false
       },
       {
@@ -1797,7 +1797,7 @@
         "correct": true
       }
     ],
-    "explanation": ""
+    "explanation": "./image/qdc/75gt.png"
   },
   {
     "numberOrder": 76,
